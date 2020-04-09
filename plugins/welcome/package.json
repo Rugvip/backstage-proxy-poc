@@ -9,6 +9,10 @@
     "lint": "backstage-cli lint",
     "test": "backstage-cli test"
   },
+  "files": [
+    "dist",
+    "setupProxy.js"
+  ],
   "devDependencies": {
     "@backstage/cli": "^0.1.1-alpha.3",
     "@testing-library/jest-dom": "^4.2.4",
