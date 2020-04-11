@@ -13,6 +13,12 @@
     "dist",
     "setupProxy.js"
   ],
+  "proxy": {
+    "/api/example": {
+      "target": "http://example.com",
+      "changeOrigin": true
+    }
+  },
   "devDependencies": {
     "@backstage/cli": "^0.1.1-alpha.3",
     "@testing-library/jest-dom": "^4.2.4",

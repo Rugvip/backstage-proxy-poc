@@ -19,6 +19,9 @@
     "react-dom": "^16.12.0",
     "react-router-dom": "^5.1.2"
   },
+  "devDependencies": {
+    "http-proxy-middleware": "^1.0.3"
+  },
   "scripts": {
     "start": "backstage-cli app:serve",
     "bundle": "backstage-cli app:build",

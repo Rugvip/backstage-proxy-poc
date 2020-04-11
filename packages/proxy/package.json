@@ -1,0 +1,15 @@
+{
+  "name": "proxy",
+  "version": "0.0.0",
+  "private": true,
+  "main": "src/index.js",
+  "dependencies": {
+    "app": "0.0.0",
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "start": "node .",
+    "test": "backstage-cli test",
+    "lint": "backstage-cli lint"
+  }
+}
